@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuristic Portfolio</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-grid"></div>
+    <div class="glow-orb top-left"></div>
+    <div class="glow-orb bottom-right"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">TAWFIQ-<span>PORTFOLIO</span></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="greeting">HELLO, WORLD!</h2>
+            <h1 class="main-title">I'm a <br><span class="typing-text"></span><span class="cursor">&nbsp;</span></h1>
+            <p class="subtitle">Building the future, one line of code at a time.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn primary-btn">View Portfolio</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-wrapper">
+                <img src="PHOTO.png" alt="Cyberpunk Setup">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding">
+        <h2 class="section-title">About <span>Me</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a 1st year B.E. Computer Science student passionate about frontend development, creative UI design, and building modern web experiences using HTML, CSS, and JavaScript.</p>
+                <div class="stats">
+                    <div class="stat-box">
+                        <h3>3 hour +</h3>
+                        <p>Learning Hour</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>5+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>B.E CS</h3>
+                        <p>1st year Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section-padding">
+        <h2 class="section-title">My <span>Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5 skill-icon html-icon"></i>
+                <h3>HTML5</h3>
+                <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt skill-icon css-icon"></i>
+                <h3>CSS3</h3>
+                <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js skill-icon js-icon"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-java skill-icon java-icon"></i>
+                <h3>java</h3>
+                <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python skill-icon python-icon"></i>
+                <h3>python</h3>
+                <div class="progress-bar"><div class="progress" data-width="75%"></div></div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database skill-icon db-icon"></i>
+                <h3>Databases</h3>
+                <div class="progress-bar"><div class="progress" data-width="70%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section-padding">
+        <h2 class="section-title">Featured <span>Projects</span></h2>
+        <div class="project-gallery">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="internship.png" alt="Internship Finder">
+                </div>
+                <div class="project-info">
+                    <h3>Internship Finder</h3>
+                    <p>Smart internship search platform featuring clean UI, smooth navigation, and modern frontend.</p>
+                    <a href="https://tawfiq24-git.github.io/internshipfinder/" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="webhub.png" alt="webhub tool">
+                </div>
+                <div class="project-info">
+                    <h3>Webhub Tool</h3>
+                    <p>Interactive web hub featuring smart tools, responsive layouts, and modern UI experience.</p>
+                    <a href="https://tawfiq24-git.github.io/web-hub-tool/" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="spotify.png" alt="Spotify clone">
+                </div>
+                <div class="project-info">
+                    <h3>Spotify Clone</h3>
+                    <p>Modern Spotify-inspired music streaming website with responsive UI and smooth animations.</p>
+                    <a href="https://tawfiq24-git.github.io/spotify/" class="view-link">View Project <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding">
+        <h2 class="section-title">Get In <span>Touch</span></h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Let's Connect</h3>
+                <p>Have a project in mind or want to collaborate? Feel free to reach out through any of these platforms.</p>
+                <div class="social-links">
+                    <a href="https://github.com/tawfiq24-git" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/mohammed-tawfiq-62a735390/" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://x.com/tawfiq242" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" required>
+                    <label for="name">Name</label>
+                    <div class="input-line"></div>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                    <div class="input-line"></div>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" rows="5" required></textarea>
+                    <label for="message">Message</label>
+                    <div class="input-line"></div>
+                </div>
+                <button type="submit" class="btn primary-btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Futuristic Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
